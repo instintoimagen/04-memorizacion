@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Contador from "./components/Contador";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div style={{ textAlign: "center" }}>
+      <h2>Memorización en React</h2>
+      <hr />
+      <h3>Teoría</h3>
+      <h4>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://es.reactjs.org/docs/react-api.html#reactmemo"
+          target="_bank"
+          rel="noreferrer"
         >
-          Learn React
+          memo
         </a>
-      </header>
+      </h4>
+      <hr />
+      <Contador />
     </div>
   );
 }
