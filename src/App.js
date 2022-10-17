@@ -4,7 +4,7 @@ import Contador from "./components/Contador";
 function App() {
   return (
     <div style={{ textAlign: "center" }}>
-      <h2>Memorización en React</h2>
+      <h1>{<i>Memorización</i>} en React</h1>
       <hr />
       <h3>Teoría</h3>
       <h4>
@@ -13,7 +13,7 @@ function App() {
           target="_bank"
           rel="noreferrer"
         >
-          memo
+          doc of memo
         </a>
       </h4>
       <hr />
